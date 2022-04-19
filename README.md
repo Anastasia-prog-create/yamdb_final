@@ -8,7 +8,7 @@
 * Django REST Framework
 * Docker
 
-(https://github.com/Anastasia-prog-create/yamdb_final/actions/workflows/yamdb_workflow.yml/badge.svg?event=push)
+![Yamdb_final workflow](https://github.com/Anastasia-prog-create/yamdb_final/actions/workflows/yamdb_workflow.yml/badge.svg?event=push)
 
 ### Как запустить проект:
 
