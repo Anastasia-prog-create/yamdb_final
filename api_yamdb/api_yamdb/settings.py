@@ -14,7 +14,8 @@ DEBUG = False
 ALLOWED_HOSTS = [
     'localhost',
     '127.0.0.1',
-    'web'
+    'web',
+    '51.250.102.104'
 ]
 
 AUTH_USER_MODEL = 'reviews.User'
