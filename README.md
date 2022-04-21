@@ -31,10 +31,10 @@ DB_PORT=port_number
 ```
 ### URLS проекта:
 Все запросы к API начинаются с /api/v1/, доступные адреса:
-http://51.250.102.104/api/v1/users/
-http://51.250.102.104/api/v1/categories/
-http://51.250.102.104/api/v1/genres/
-http://51.250.102.104/api/v1/titles/
+* http://51.250.102.104/api/v1/users/
+* http://51.250.102.104/api/v1/categories/
+* http://51.250.102.104/api/v1/genres/
+* http://51.250.102.104/api/v1/titles/
 
 ### Ознакомится с подробной документацией к API можно здесь:
 http://51.250.102.104/redoc/
