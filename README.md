@@ -10,14 +10,14 @@
 
 ![Yamdb_final workflow](https://github.com/Anastasia-prog-create/yamdb_final/actions/workflows/yamdb_workflow.yml/badge.svg?event=push)
 
-### Как запустить проект:
+### О проекте:
 
-Клонируйте репозиторий и перейдите в него в командной строке:
+Клонировать репозитозиторий можно командами ниже:
 ```sh
-git clone https://github.com/Anastasia-prog-create/infra_sp2.git
-cd infra_sp2
+git clone https://github.com/Anastasia-prog-create/yamdb_final.git
+cd yamdb_final
 ```
-В директории infra/ cоздайте и заполните файл .env необходимыми переменными.
+Для работы с проектом в директории infra/ cоздайте и заполните файл .env необходимыми переменными.
 Пример наполнения файла .env:
 ```
 SECRET_KEY = 'your_secret_key'
@@ -29,18 +29,12 @@ POSTGRES_PASSWORD=password
 DB_HOST=container_name
 DB_PORT=port_number
 ```
-Запустите терминал и перейдите в директорию, в которой находится docker-compose.yaml:
-```sh
-сd infra
-```
-Запустите docker-compose командой:
-```sh
-docker-compose up -d
-```
-В контейнере web по очереди выполните команды:
-```sh
-docker-compose exec web python manage.py migrate
-docker-compose exec web python manage.py createsuperuser
-docker-compose exec web python manage.py collectstatic --no-input 
-```
-Убедитесь, что проект работает по ссылке: http://127.0.0.1:8000/admin/
+### URLS проекта:
+Все запросы к API начинаются с /api/v1/, доступные адреса:
+http://51.250.102.104/api/v1/users/
+http://51.250.102.104/api/v1/categories/
+http://51.250.102.104/api/v1/genres/
+http://51.250.102.104/api/v1/titles/
+
+### Ознакомится с подробной документацией к API можно здесь:
+http://51.250.102.104/redoc/
